@@ -1,12 +1,16 @@
 
 body {
+    display: flex;
+    flex-direction: column;
     background-color: rgb(194, 194, 194);
     margin: 0;
-    padding: 3rem;
+ font-family: Arial, Helvetica, sans-serif;
+
 }
 
 h1 {
     text-align: center;
+    font-size: 128px;
 }
 
 p {
@@ -14,8 +18,38 @@ p {
 }
 
 
-.flex-container {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
+
+
+
+
+
+.section {
+    width: 100%;
+    height: 100vh;
+}
+
+.section1 { background-color: #EBDEB3; } 
+.section2 { background-color: #887A7A; } 
+.section3 { background-color: #4B4141; } 
+.section4 { background-color: #2D2727; }
+.section5 { background-color: black; }
+
+/*color*/
+.white {
+    color: white;
+}
+
+.title {
+    font-size: 100px;
+    color: white;
+}
+
+.intro {
+    font-size: 20px;
+    color: white;
+}
+
+.quotes {
+    font-size: 35px;
+    color: white;
 }
