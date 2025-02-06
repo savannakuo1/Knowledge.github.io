@@ -8,11 +8,29 @@ body {
 
 }
 
-h1 {
+
+
+.heading {
     text-align: center;
     font-size: 128px;
     padding-top: 200px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.heading1 {
+    color: black;
+}
+
+.heading2 {
+    color: #C0B2B2;
+}
+
+.heading3 {
+    color: #2D2727;
+}
+
+.heading4 {
+    color: #5D4D49;
 }
 
 p {
