@@ -1,10 +1,13 @@
-
+body {
+    background: linear-gradient(to bottom, #332E1F, black);
+}
 
 p {
     width: 40%;
     font-size: 25px;
     font-family: "EB Garamond";
     padding-left: 20%;
+    color: rgb(128, 128, 128);
 }
 
 h1 {

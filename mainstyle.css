@@ -1,8 +1,8 @@
 
 body {
+    background: linear-gradient(to bottom, #FFF56B, #463d2d, black);
     display: flex;
     flex-direction: column;
-    background-color: rgb(194, 194, 194);
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 
@@ -18,7 +18,7 @@ body {
 }
 
 .heading1 {
-    color: black;
+    color: white;
 }
 
 .heading2 {
@@ -46,11 +46,13 @@ a {
     height: 110vh;
 }
 
+/*
 .section1 { background-color: #EBDEB3; } 
 .section2 { background-color: #887A7A; } 
 .section3 { background-color: #4B4141; } 
 .section4 { background-color: #2D2727; }
 .section5 { background-color: black; }
+*/
 
 /*color*/
 .white {
@@ -82,7 +84,7 @@ a {
 }
 
 .quotes_1 {
-    color: black;
+    color: white;
 }
 
 .quotes_2 {
@@ -90,7 +92,7 @@ a {
 }
 
 .quotes_3 {
-    color: #7e7070;
+    color: #2D2727;
 }
 
 .quotes_4 {
