@@ -1,0 +1,21 @@
+
+p {
+    width: 40%;
+    font-size: 25px;
+    font-family: "EB Garamond";
+    padding-left: 20%;
+}
+
+h1 {
+    font-size: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.G {
+    width: 40%;
+    font-size: 25px;
+    font-family: "EB Garamond";
+    padding-left: 30%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
