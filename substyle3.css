@@ -9,7 +9,7 @@ p {
     letter-spacing: 0.01em;
     line-height: 1.5em;
     padding-left: 20%;
-    color: rgb(128, 128, 128);
+    color: rgb(149, 149, 149);
 }
 
 h1 {
@@ -40,7 +40,7 @@ h1 {
 
 
 .dialogue {
-    opacity: 0.35;
+    opacity: 0.5;
     transition: opacity 0.3s ease-in-out;
 }
 
