@@ -1,6 +1,6 @@
 
 body {
-    background: linear-gradient(to bottom, #ffe9a1, #463d2d, black);
+    background: linear-gradient(to bottom, #ffe180, #463d2d, black);
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -14,7 +14,8 @@ body {
     text-align: center;
     font-size: 128px;
     padding-top: 200px;
-    font-family: "open sans";
+    font-family: "museo-sans", sans-serif;
+    font-weight: 700;
 }
 /*heading 1*/
 .heading1 {
