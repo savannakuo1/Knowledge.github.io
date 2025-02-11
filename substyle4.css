@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to bottom, #332E1F, black);
+    background: linear-gradient(to bottom, #e4d090, #e4d090);
 }
 
 p {
@@ -9,13 +9,13 @@ p {
     letter-spacing: 0.01em;
     line-height: 1.5em;
     padding-left: 20%;
-    color: rgb(128, 128, 128);
+    color: black;
 }
 
 h1 {
     font-size: 80px;
     font-family: "meno-display", serif;
-    color: white;
+    color: black;
     padding-left: 40px;
 }
 
