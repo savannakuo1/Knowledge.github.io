@@ -14,7 +14,7 @@ body {
     text-align: center;
     font-size: 128px;
     padding-top: 200px;
-    font-family: "museo-sans", sans-serif;
+    font-family: "meno-display", serif;
     font-weight: 700;
 }
 /*heading 1*/
@@ -140,7 +140,7 @@ a {
 
 .intro {
     font-size: 20px;
-    font-family: "poppins";
+    font-family: "EB Garamond";
     color: white;
     padding-bottom: 12%;
     padding-top: 3rem;
@@ -163,7 +163,7 @@ a {
     font-size: 35px;
     line-height: 50px;
     color: white;
-    font-family: "open sans";
+    font-family: "EB Garamond";
     font-weight: 500;
 }
 
@@ -193,20 +193,16 @@ a {
 
 .highlight_yellow {
     color: #FFF56B;
-    font-weight: bold;
 }
 
 .highlight_cave {
     color: #6c5437;
-    font-weight: bold;
 }
 
 .highlight_shadow {
     color: #262525;
-    font-weight: bold;
 }
 
 .highlight_free {
     color: white;
-    font-weight: bold;
 }
