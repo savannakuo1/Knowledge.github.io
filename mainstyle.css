@@ -15,7 +15,6 @@ body {
     font-size: 128px;
     padding-top: 200px;
     font-family: "meno-display", serif;
-    font-weight: 700;
 }
 /*heading 1*/
 .heading1 {
@@ -139,12 +138,12 @@ a {
 }
 
 .intro {
-    font-size: 20px;
+    font-size: 25px;
     font-family: "EB Garamond";
     color: white;
     padding-bottom: 12%;
     padding-top: 3rem;
-    line-height: 30px;
+    line-height: 35px;
 }
 
 .byplato {
