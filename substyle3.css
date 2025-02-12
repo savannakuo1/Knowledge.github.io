@@ -29,7 +29,7 @@ h1 {
 }
 
 .G1 {
-    opacity: 0.2;
+    opacity: 0.5;
     transition: opacity 0.3s ease-in-out;
 }
 
@@ -56,4 +56,42 @@ a {
     text-align: right;
     margin-right: 40px;
     margin-bottom: 20px;
+}
+
+/*Responsiveness*/
+@media screen and (max-width: 530px) {
+    p {
+        width: 80%;
+        font-size: 20px;
+        font-family: "EB Garamond";
+        letter-spacing: 0.01em;
+        line-height: 1.5em;
+        padding-left: 10%;
+        color: rgb(149, 149, 149);
+    }
+
+.G {
+    width: 60%;
+    font-size: 20px;
+    font-family: "EB Garamond";
+    padding-left: 20%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.G1 {
+    opacity: 1;
+}
+
+.G1:hover {
+    opacity: 1;
+}
+
+.dialogue {
+    opacity: 1;
+}
+
+.dialogue:hover {
+    opacity: 1;
+}
 }

@@ -57,3 +57,42 @@ a {
     margin-right: 40px;
     margin-bottom: 20px;
 }
+
+
+/*Responsiveness*/
+@media screen and (max-width: 530px) {
+    p {
+        width: 80%;
+        font-size: 20px;
+        font-family: "EB Garamond";
+        letter-spacing: 0.01em;
+        line-height: 1.5em;
+        padding-left: 10%;
+        color: black;
+    }
+
+.G {
+    width: 60%;
+    font-size: 20px;
+    font-family: "EB Garamond";
+    padding-left: 20%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.G1 {
+    opacity: 1;
+}
+
+.G1:hover {
+    opacity: 1;
+}
+
+.dialogue {
+    opacity: 1;
+}
+
+.dialogue:hover {
+    opacity: 1;
+}
+}
