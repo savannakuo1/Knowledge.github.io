@@ -67,6 +67,13 @@ a::after {
 
 /*Responsiveness*/
 @media screen and (max-width: 530px) {
+    h1 {
+        font-size: 80px;
+        font-family: "meno-display", serif;
+        color: black;
+        padding-left: 40px;
+        line-height: 70px;
+    }
     p {
         width: 80%;
         font-size: 20px;
@@ -75,9 +82,7 @@ a::after {
         line-height: 1.5em;
         padding-left: 10%;
         color: rgb(128, 128, 128);
-        line-height: 70px;
     }
-
 .G {
     width: 60%;
     font-size: 20px;
