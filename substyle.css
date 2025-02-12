@@ -87,18 +87,18 @@ a::after {
 }
 
 .G1 {
-    opacity: 1;
+    opacity: 0.8;
 }
 
 .G1:hover {
-    opacity: 1;
+    opacity: 0.8;
 }
 
 .dialogue {
-    opacity: 1;
+    opacity: 0.8;
 }
 
 .dialogue:hover {
-    opacity: 1;
+    opacity: 0.8;
 }
 }

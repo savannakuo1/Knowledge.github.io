@@ -205,3 +205,35 @@ a {
 .highlight_free {
     color: white;
 }
+
+
+/*Responsiveness*/
+@media screen and (max-width: 530px) {
+    .title {
+        font-size: 50px;
+        color: white;
+        margin-top: 0;
+    }
+    
+    .intro {
+        font-size: 20px;
+        font-family: "EB Garamond";
+        color: white;
+        padding-bottom: 12%;
+        padding-top: 3rem;
+        line-height: 30px;
+    }
+    .heading {
+        text-align: center;
+        font-size: 70px;
+        padding-top: 200px;
+        font-family: "meno-display", serif;
+    }
+    .quotes {
+        font-size: 23px;
+        line-height: 40px;
+        color: white;
+        font-family: "EB Garamond";
+        font-weight: 500;
+    }
+}
