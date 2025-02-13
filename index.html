@@ -14,6 +14,8 @@
 <link rel="stylesheet" href="https://use.typekit.net/zrf3lvl.css">
 <body>
 
+    <button id="scrollToBottom">click me to start from the bottom</button>
+
     <script>
         window.onload = function() {
             setTimeout(function() {
@@ -25,6 +27,12 @@
             event.preventDefault();
             window.scrollBy(0, -event.deltaY);
         }, { passive: false });
+    </script>
+
+<script>
+    document.getElementById("scrollToBottom").addEventListener("click", function() {
+      window.scrollTo({ top: document.body.scrollHeight, behavior: "smooth" });
+    });
     </script>
 
     <div>
@@ -80,5 +88,6 @@
         <p class="title">THE ALLEGORY OF THE CAVE</p>
     </div>
 
+    <div id="bottom"></div>
 
 </body>
