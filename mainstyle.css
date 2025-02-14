@@ -249,7 +249,7 @@ a {
     text-align: center;
     font-size: 30px;
     font-family: "EB Garamond";
-    font-weight: 700;
+    font-weight: 500;
     color: white;
     background-color: black;
     cursor: pointer;
@@ -288,4 +288,11 @@ a {
 #toggleBlock:checked ~ #popupBlock {
     opacity: 1;
     visibility: visible;
+}
+
+/* A lone*/
+
+hr {
+    border: none;
+    border-top: 2px solid rgb(255, 255, 255);
 }
