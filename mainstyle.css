@@ -213,6 +213,10 @@ a {
     color: white;
 }
 
+.italic {
+    font-style: italic;
+}
+
 
 /*Responsiveness*/
 @media screen and (max-width: 530px) {
@@ -267,16 +271,18 @@ a {
 
 /* pop-up block */
 #popupBlock {
-    width: 600px;
+    width: 500px;
     height: 400px;
     background-color: black; 
-    color: white;
+    color: rgb(194, 194, 194);
+    border: 5px solid rgb(194, 194, 194);
     text-align: center;
     font-family: "Open Sans";
     font-size: 18px;
     line-height: 30px;
-    padding: 20px;
+    padding: 30px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 
@@ -296,11 +302,4 @@ a {
 #toggleBlock:checked ~ #popupBlock {
     opacity: 1;
     visibility: visible;
-}
-
-/* A lone*/
-
-hr {
-    border: none;
-    border-top: 2px solid rgb(255, 255, 255);
 }
