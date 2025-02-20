@@ -303,3 +303,12 @@ a {
     opacity: 1;
     visibility: visible;
 }
+
+.closeButton {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    cursor: pointer;
+    font-size: 25px;
+    color: rgb(194, 194, 194);
+}
